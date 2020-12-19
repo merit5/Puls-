@@ -1,0 +1,38 @@
+extends ./../layouts/main.pug 
+
+block variables
+    - var title = "Главная";
+
+block content
+  header.header
+    .container
+      .header-content
+        .header-top 
+          .logo 
+            img(src=".././img/logo.png", alt="#")
+          .oficial 
+            p Официальный представитель
+            span Garmin, Polar, Suunto
+          .phone +7 (499) 922-89-74
+            .button-red заказать звонок
+        .promo 
+          .promo-title
+            h1 Подбор пульсометра 
+            p с учётом Вашего уровня подготовки
+          .promo-features
+            .promo-item
+              .promo-icon
+                img(src=".././img/header-icon1.png", alt="")
+              .promo-text  Время подбора: 10 минут
+            .promo-item    
+              .promo-icon
+                img(src=".././img/header-icon2.png", alt="")
+              .promo-text  Бесплатная доставка
+            .promo-item   
+              .promo-icon
+                img(src=".././img/header-icon3.png", alt="")
+              .promo-text  Ответим на все вопросы
+          .button-red заказать кОНСУЛЬТАЦИЮ    
+          .promo-catalog-link или 
+            a(href="#")  ПЕРЕЙТИ В КАТАЛОГ
+            

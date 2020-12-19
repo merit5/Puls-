@@ -1,0 +1,134 @@
+.header{
+  position: relative;
+  padding: 20px 100px 85px;
+  height: 650px;
+  width: 100%;
+  z-index: 1;
+  background: url("../img/header-bg.jpg") center center/cover no-repeat;
+  // &::before{
+  //   content: "";
+  //   position: absolute;
+  //   display: block;
+    
+  //   top: 0;
+  //   right: 0;
+  //   left: 0;
+  //   bottom: 0;
+  //   background-color: rgba(22, 17, 17, 0.431);
+  //   z-index: 1;
+  // }
+}
+.header-content{
+  z-index: 100;
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+   z-index: 100;
+
+}
+.logo{
+  width: 250px;
+  img{
+    width: 100%;
+  }
+}
+.oficial{
+  font-family: "Myriad Pro";
+  max-width: 170px;
+  color: @white;
+  z-index: 100;
+  p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    line-height: 1.8;
+  }
+  span{
+    font-size: 18px;
+  }
+}
+.phone{
+  font-family: "Myriad Pro";
+  max-width: 180px;
+  color: @white;
+  z-index: 100;
+  font-size: 18px;
+  text-align: center;
+  
+}
+.button-red{
+  font-family: "Myriad Pro";
+  height: 30px;
+  background-color: @second-color;
+  padding: 0 35px;
+  font-size: 12px;
+  line-height: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  z-index: 100;
+}
+.promo{
+  padding-top: 85px;
+  color:@white;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  .button-red{
+    font-size: 16px;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 40px;
+    text-align: center;
+    margin-top: 60px;
+    // width: 300px;
+  }
+  
+} 
+.promo-title{
+   
+  font-family: 'Museo Sans Cyrl 500';
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: right;
+  h1{
+    font-size: 42px;
+  }
+  p{
+   
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+ 
+}
+.promo-features{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+.promo-item{
+  max-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.promo-icon{
+  
+}
+.promo-text{
+  text-align: center;
+
+}
+.promo-catalog-link{
+  margin-top: 20px;
+  font-size: 16px;
+  
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: right;
+  a{
+    color: rgb(255, 255, 255);
+  }
+}
